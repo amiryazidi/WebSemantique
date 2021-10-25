@@ -1,0 +1,9 @@
+PREFIX ns: <http://www.semanticweb.org/pc/ontologies/2021/9/untitled-ontology-13#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?accessoires 
+
+WHERE {
+		?accessoires rdf:type ns:Accessoires .
+		
+}
